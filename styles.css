@@ -54,7 +54,7 @@ body {
 }
 
 .container {
-    width: 1400px;
+    width: 1300px;
     margin: 0 auto;
     padding: 0 10px 0 10px;
 }
@@ -111,7 +111,46 @@ a {
     font-size: 10px;
 }
 /* ----------- top ------------- */
+/*header*/
 #top {
+    clear: both;
+}
+
+header {
+    overflow: hidden;
+    height: 80px;
+    padding: 0 5px 0 5px;
+}
+/*logo*/
+#top header .logo {
+    display: inline-block;
+    float: left;
+    padding-top: 30px;
+}
+
+#top header .logo h1 a{
+    color: black;
+}
+#top header .logo h1{
+    font-size: 29px;
+    font-family: cursive;
+}
+/*nav*/
+
+#top header nav {
+    display: inline-block;
+    float: right;
+    padding-top: 30px;    
+}
+
+#top header nav ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+/*banner*/
+.banner {
     clear: both;
 }
 
